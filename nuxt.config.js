@@ -43,6 +43,7 @@ export default {
    ** Nuxt.js modules
    */
   modules: [
+    '@nuxtjs/dotenv',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa'
