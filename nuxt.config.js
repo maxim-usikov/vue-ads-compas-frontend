@@ -42,15 +42,8 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [
-    '@nuxtjs/dotenv',
-    // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios',
-    '@nuxtjs/pwa'
-  ],
-  /*
-   ** Axios module configuration
-   */
+  modules: ['@nuxtjs/dotenv', '@nuxtjs/axios', '@nuxtjs/auth'],
+
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
   },
