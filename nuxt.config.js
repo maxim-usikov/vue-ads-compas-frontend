@@ -49,6 +49,31 @@ export default {
     // See https://github.com/nuxt-community/axios-module#options
     baseURL: process.env.BACKEND_HOST
   },
+
+  auth: {
+    defaultStrategy: 'GrantPassword',
+    redirect: {
+      login: '/sign-in',
+      logout: false,
+      callback: '/sign-in',
+      home: '/'
+    },
+    token: { prefix: '_access_token.' },
+    strategies: {
+      local: false,
+      GrantPassword: {
+        _scheme: '~/services/auth/GrantPassword.scheme.js',
+        _name: 'GrantPassword',
+        client_id: process.env.OAUTH_CLIENT_ID,
+        client_secret: process.env.OAUTH_CLIENT_SECRET,
+        scope: '*',
+        endpoints: {
+          login: { url: '/oauth/token', method: 'post' },
+          logout: false,
+          user: { url: 'api/me', method: 'get' }
+        }
+      }
+    }
   },
 
   /*
