@@ -55,7 +55,7 @@ export default {
    ** Build configuration
    */
   build: {
-    transpile: ['vuetify/lib'],
+    transpile: ['vuetify/lib', '@nuxtjs/auth/lib'],
     plugins: [new VuetifyLoaderPlugin()],
     loaders: {
       stylus: {
