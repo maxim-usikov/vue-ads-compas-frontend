@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavUser renders correctly 1`] = `
+<vlist-stub
+  class="pa-1 text-truncate"
+>
+  <vlisttile-stub
+    activeclass="primary--text"
+    avatar="true"
+  >
+    <vlisttileavatar-stub
+      class="text-uppercase white--text"
+      color="blue-grey darken-4"
+      size="40"
+    >
+      
+      T
+    
+    </vlisttileavatar-stub>
+     
+    <vlisttilecontent-stub>
+      <vlisttiletitle-stub>
+        test@test.test
+      </vlisttiletitle-stub>
+    </vlisttilecontent-stub>
+     
+    <vspacer-stub />
+     
+    <vlisttileaction-stub>
+      <vmenu-stub
+        bottom="true"
+        closedelay="0"
+        closeonclick="true"
+        closeoncontentclick="true"
+        contentclass=""
+        left="true"
+        maxheight="auto"
+        maxwidth="auto"
+        nudgebottom="0"
+        nudgeleft="0"
+        nudgeright="0"
+        nudgetop="0"
+        nudgewidth="0"
+        opendelay="0"
+        openonclick="true"
+        origin="top left"
+        transition="v-menu-transition"
+      >
+        <vbtn-stub
+          activeclass="v-btn--active"
+          icon="true"
+          tag="button"
+          type="button"
+        >
+          <vicon-stub>
+            more_vert
+          </vicon-stub>
+        </vbtn-stub>
+         
+        <vlist-stub>
+          <vlisttile-stub
+            activeclass="primary--text"
+          >
+            <vlisttiletitle-stub>
+              Sign out
+            </vlisttiletitle-stub>
+          </vlisttile-stub>
+        </vlist-stub>
+      </vmenu-stub>
+    </vlisttileaction-stub>
+  </vlisttile-stub>
+   
+  <vdivider-stub />
+</vlist-stub>
+`;
