@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignInCard renders correctly 1`] = `
+<vcard-stub
+  class="elevation-12"
+  tag="div"
+>
+  <vtoolbar-stub
+    color="primary"
+    dark="true"
+    scrollthreshold="300"
+  >
+    <vtoolbartitle-stub>
+      Sign in
+    </vtoolbartitle-stub>
+  </vtoolbar-stub>
+   
+  <vcardtext-stub>
+    <valert-stub
+      class="mb-4"
+      type="error"
+    >
+      
+      
+    
+    </valert-stub>
+     
+    <vform-stub>
+      <vtextfield-stub
+        label="Email"
+        name="username"
+        prepend-icon="person"
+        required=""
+        rules="v => !!v || 'E-mail is required'"
+        type="text"
+        value=""
+      />
+       
+      <vtextfield-stub
+        label="Password"
+        name="password"
+        prepend-icon="lock"
+        required=""
+        rules="v => !!v || 'Password is required'"
+        type="password"
+        value=""
+      />
+    </vform-stub>
+  </vcardtext-stub>
+   
+  <vcardactions-stub>
+    <vspacer-stub />
+     
+    <vbtn-stub
+      activeclass="v-btn--active"
+      color="primary"
+      disabled="true"
+      tag="button"
+      type="button"
+    >
+      Sign in
+    </vbtn-stub>
+  </vcardactions-stub>
+</vcard-stub>
+`;
