@@ -42,7 +42,7 @@
 
 <script>
 import { mapGetters } from 'vuex'
-import NavUser from '@/components/App/NavUser'
+import NavUser from '@/components/NavUser'
 
 export default {
   components: {

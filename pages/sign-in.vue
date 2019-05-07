@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import SignInCard from '@/components/Auth/SignInCard'
+import SignInCard from '@/components/SignInCard'
 
 export default {
   middleware: 'guest',
