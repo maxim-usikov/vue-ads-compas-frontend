@@ -61,6 +61,7 @@ export default {
 
     handleSignOut() {
       this.$auth.logout()
+      this.$router.push({ name: 'index' })
     }
   }
 }
