@@ -70,7 +70,7 @@ export default {
         endpoints: {
           login: { url: '/oauth/token', method: 'post' },
           logout: false,
-          user: { url: 'api/me', method: 'get' }
+          user: { url: 'api/me', method: 'get', propertyName: 'data' }
         }
       }
     }
