@@ -1,3 +1,5 @@
+Frontend for [laravel-ads-compas-backend](https://github.com/maxim-usikov/laravel-ads-compas-backend)
+
 ## Env
 ```bash
 cp .env.example .env
