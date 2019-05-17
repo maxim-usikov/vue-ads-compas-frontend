@@ -3,7 +3,7 @@ Frontend for [laravel-ads-compas-backend](https://github.com/maxim-usikov/larave
 ## Env
 ```bash
 cp .env.example .env
-// after copy fill values
+# after copy fill values
 ```
 
 ## Build Setup
