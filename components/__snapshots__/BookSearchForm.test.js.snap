@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BookSearchForm renders correctly 1`] = `
+<vform-stub>
+  <vtextfield-stub
+    label="Book title or author name"
+    required=""
+    rules="v => {
+          /* istanbul ignore next */
+          cov_8j5301kt1.f[2]++;
+          cov_8j5301kt1.s[5]++;
+          return (
+            /* istanbul ignore next */
+            (cov_8j5301kt1.b[1][0]++, !!v) ||
+            /* istanbul ignore next */
+            (cov_8j5301kt1.b[1][1]++, 'Required')
+          );
+        },v => {
+          /* istanbul ignore next */
+          cov_8j5301kt1.f[3]++;
+          cov_8j5301kt1.s[6]++;
+          return (
+            /* istanbul ignore next */
+            (cov_8j5301kt1.b[2][0]++, v.length > 2) ||
+            /* istanbul ignore next */
+            (cov_8j5301kt1.b[2][1]++, 'Must be greater then 2 characters')
+          );
+        }"
+    value=""
+  />
+   
+  <vbtn-stub
+    activeclass="v-btn--active"
+    color="primary"
+    disabled="true"
+    tag="button"
+    type="button"
+  >
+    Search
+  </vbtn-stub>
+</vform-stub>
+`;
