@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BookCard renders correctly 1`] = `
+<vcard-stub
+  color="gray"
+  hover="true"
+  tag="div"
+>
+  <vlayout-stub
+    row=""
+    tag="div"
+  >
+    <vflex-stub
+      tag="div"
+    >
+      <vcardtitle-stub
+        primarytitle="true"
+      >
+        <div>
+          <div
+            class="headline"
+          >
+            test book
+          </div>
+        </div>
+      </vcardtitle-stub>
+    </vflex-stub>
+  </vlayout-stub>
+   
+  <vdivider-stub
+    light="true"
+  />
+   
+  <vcardactions-stub
+    class="pa-3"
+  />
+</vcard-stub>
+`;
+
+exports[`BookCard renders correctly with authors not empty 1`] = `
+<vcard-stub
+  color="gray"
+  hover="true"
+  tag="div"
+>
+  <vlayout-stub
+    row=""
+    tag="div"
+  >
+    <vflex-stub
+      tag="div"
+    >
+      <vcardtitle-stub
+        primarytitle="true"
+      >
+        <div>
+          <div
+            class="headline"
+          >
+            test book
+          </div>
+        </div>
+      </vcardtitle-stub>
+    </vflex-stub>
+  </vlayout-stub>
+   
+  <vdivider-stub
+    light="true"
+  />
+   
+  <vcardactions-stub
+    class="pa-3"
+  >
+    <vchip-stub
+      class="mr-3"
+      value="true"
+    >
+      test author
+    </vchip-stub>
+  </vcardactions-stub>
+</vcard-stub>
+`;
