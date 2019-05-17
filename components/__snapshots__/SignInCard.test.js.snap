@@ -31,7 +31,17 @@ exports[`SignInCard renders correctly 1`] = `
         name="username"
         prepend-icon="person"
         required=""
-        rules="v => !!v || 'E-mail is required'"
+        rules="v => {
+            /* istanbul ignore next */
+            cov_100q7zw84.f[2]++;
+            cov_100q7zw84.s[5]++;
+            return (
+              /* istanbul ignore next */
+              (cov_100q7zw84.b[0][0]++, !!v) ||
+              /* istanbul ignore next */
+              (cov_100q7zw84.b[0][1]++, 'E-mail is required')
+            );
+          }"
         type="text"
         value=""
       />
@@ -41,7 +51,17 @@ exports[`SignInCard renders correctly 1`] = `
         name="password"
         prepend-icon="lock"
         required=""
-        rules="v => !!v || 'Password is required'"
+        rules="v => {
+            /* istanbul ignore next */
+            cov_100q7zw84.f[3]++;
+            cov_100q7zw84.s[6]++;
+            return (
+              /* istanbul ignore next */
+              (cov_100q7zw84.b[1][0]++, !!v) ||
+              /* istanbul ignore next */
+              (cov_100q7zw84.b[1][1]++, 'Password is required')
+            );
+          }"
         type="password"
         value=""
       />
