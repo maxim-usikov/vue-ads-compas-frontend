@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BookAuthorFilterForm renders correctly 1`] = `
+<vform-stub>
+  <vtextfield-stub
+    label="Book title"
+    required=""
+    value=""
+  />
+   
+  <vtextfield-stub
+    label="Author name"
+    required=""
+    value=""
+  />
+   
+  <vbtn-stub
+    activeclass="v-btn--active"
+    color="primary"
+    disabled="true"
+    tag="button"
+    type="button"
+  >
+    Filter
+  </vbtn-stub>
+   
+  <vbtn-stub
+    activeclass="v-btn--active"
+    color="secondary"
+    tag="button"
+    type="button"
+  >
+    Reset
+  </vbtn-stub>
+</vform-stub>
+`;
